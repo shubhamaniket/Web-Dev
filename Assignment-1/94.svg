@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 21000 29700"
+   preserveAspectRatio="xMidYMid"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   width="1024"
+   height="1024"
+   sodipodi:docname="Linie 94.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   style="fill-rule:evenodd">
+  <metadata
+     id="metadata53">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs51">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective55" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="712"
+     inkscape:window-width="1024"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.43901235"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg2" />
+  <g
+     visibility="visible"
+     id="Standard"
+     style="visibility:visible">
+    <desc
+       id="desc5">Master slide</desc>
+  </g>
+  <g
+     visibility="visible"
+     id="page9"
+     style="visibility:visible"
+     transform="matrix(2.0944993,0,0,2.0944993,-5060.0353,-619.97179)">
+    <desc
+       id="desc8">Slide</desc>
+    <g
+       id="g10">
+      <desc
+         id="desc12">Group</desc>
+      <g
+         id="g14">
+        <desc
+           id="desc16">Drawing</desc>
+        <g
+           id="g18">
+          <g
+             style="fill:#0099dc;stroke:none"
+             id="g20">
+            <path
+               d="M 339,14476 L 339,296 L 14519,296 L 14519,14476 L 339,14476 z"
+               id="path22" />
+          </g>
+          <g
+             id="g24" />
+        </g>
+      </g>
+      <g
+         id="g26">
+        <desc
+           id="desc28">Drawing</desc>
+        <g
+           id="g30">
+          <g
+             style="fill:#ffffff;stroke:none"
+             id="g32">
+            <path
+               d="M 5225,6080 L 5220,5902 L 5204,5735 L 5178,5578 L 5141,5431 L 5094,5295 L 5036,5168 L 5003,5109 L 4968,5052 L 4930,4998 L 4889,4946 L 4803,4851 L 4714,4770 L 4669,4733 L 4622,4700 L 4575,4670 L 4527,4644 L 4478,4620 L 4428,4600 L 4378,4582 L 4326,4568 L 4274,4557 L 4221,4549 L 4168,4545 L 4113,4543 L 4061,4544 L 4010,4548 L 3961,4555 L 3912,4564 L 3865,4575 L 3818,4589 L 3773,4606 L 3729,4626 L 3686,4647 L 3644,4672 L 3604,4699 L 3564,4729 L 3526,4761 L 3488,4796 L 3417,4873 L 3383,4916 L 3352,4962 L 3323,5012 L 3296,5065 L 3271,5121 L 3248,5181 L 3209,5310 L 3179,5451 L 3157,5607 L 3144,5775 L 3140,5956 L 3145,6141 L 3159,6312 L 3182,6472 L 3215,6618 L 3257,6752 L 3282,6814 L 3309,6873 L 3339,6929 L 3370,6981 L 3404,7031 L 3441,7077 L 3519,7161 L 3559,7198 L 3601,7233 L 3644,7265 L 3688,7295 L 3733,7321 L 3779,7345 L 3827,7366 L 3876,7384 L 3926,7399 L 3977,7412 L 4029,7421 L 4083,7428 L 4137,7433 L 4193,7434 L 4247,7433 L 4300,7429 L 4351,7422 L 4402,7412 L 4452,7400 L 4500,7386 L 4548,7368 L 4594,7348 L 4639,7325 L 4684,7299 L 4727,7271 L 4769,7240 L 4810,7207 L 4850,7171 L 4927,7090 L 4963,7046 L 4997,6999 L 5028,6950 L 5058,6898 L 5084,6844 L 5109,6787 L 5151,6666 L 5183,6535 L 5206,6393 L 5220,6242 L 5225,6080 z M 1807,9380 L 3269,9219 L 3285,9327 L 3306,9427 L 3333,9521 L 3365,9607 L 3403,9686 L 3446,9758 L 3469,9791 L 3494,9823 L 3520,9852 L 3548,9880 L 3577,9906 L 3607,9930 L 3638,9953 L 3670,9974 L 3704,9993 L 3738,10011 L 3774,10027 L 3810,10041 L 3887,10065 L 3969,10082 L 4055,10092 L 4145,10095 L 4203,10093 L 4259,10088 L 4315,10080 L 4370,10068 L 4423,10053 L 4475,10035 L 4527,10013 L 4577,9988 L 4626,9959 L 4674,9927 L 4721,9892 L 4767,9853 L 4812,9811 L 4856,9766 L 4940,9665 L 4980,9608 L 5018,9543 L 5055,9471 L 5089,9392 L 5153,9213 L 5209,9004 L 5257,8767 L 5299,8500 L 5332,8205 L 5359,7881 L 5212,8036 L 5136,8106 L 5057,8170 L 4976,8230 L 4892,8284 L 4807,8333 L 4719,8377 L 4628,8416 L 4536,8449 L 4442,8478 L 4345,8501 L 4246,8519 L 4144,8532 L 3935,8542 L 3706,8531 L 3595,8517 L 3486,8497 L 3379,8472 L 3273,8441 L 3170,8405 L 3069,8363 L 2970,8315 L 2872,8262 L 2777,8203 L 2684,8138 L 2503,7992 L 2331,7824 L 2249,7733 L 2173,7638 L 2102,7540 L 2036,7438 L 1975,7333 L 1920,7225 L 1825,6998 L 1751,6758 L 1698,6504 L 1667,6237 L 1656,5956 L 1667,5664 L 1701,5386 L 1756,5123 L 1834,4874 L 1882,4755 L 1935,4640 L 1993,4528 L 2057,4420 L 2127,4315 L 2202,4215 L 2283,4118 L 2369,4024 L 2553,3852 L 2650,3775 L 2749,3703 L 2852,3637 L 2958,3577 L 3067,3523 L 3178,3474 L 3293,3431 L 3411,3394 L 3656,3337 L 3913,3302 L 4182,3291 L 4330,3295 L 4475,3305 L 4616,3324 L 4754,3349 L 4889,3382 L 5021,3421 L 5149,3468 L 5273,3523 L 5395,3584 L 5513,3653 L 5627,3729 L 5738,3812 L 5846,3903 L 5951,4001 L 6150,4218 L 6243,4339 L 6330,4468 L 6411,4608 L 6486,4756 L 6555,4914 L 6618,5082 L 6726,5444 L 6810,5844 L 6870,6281 L 6906,6756 L 6918,7268 L 6905,7789 L 6868,8273 L 6805,8719 L 6718,9127 L 6605,9498 L 6539,9669 L 6467,9831 L 6389,9984 L 6305,10127 L 6214,10261 L 6117,10385 L 6015,10501 L 5909,10609 L 5800,10710 L 5686,10804 L 5569,10889 L 5448,10968 L 5324,11039 L 5195,11102 L 5063,11158 L 4927,11207 L 4787,11248 L 4644,11282 L 4497,11308 L 4345,11327 L 4032,11342 L 3806,11334 L 3592,11311 L 3388,11272 L 3196,11219 L 3015,11150 L 2845,11065 L 2764,11017 L 2686,10965 L 2610,10910 L 2538,10850 L 2468,10787 L 2402,10719 L 2339,10648 L 2279,10574 L 2168,10413 L 2070,10237 L 1985,10045 L 1913,9839 L 1854,9617 L 1807,9380 z"
+               id="path34" />
+          </g>
+          <g
+             id="g36" />
+        </g>
+      </g>
+      <g
+         id="g38">
+        <desc
+           id="desc40">Drawing</desc>
+        <g
+           id="g42">
+          <g
+             style="fill:#ffffff;stroke:none"
+             id="g44">
+            <path
+               d="M 10858,8289 L 10858,5596 L 9047,8289 L 10858,8289 z M 10858,11202 L 10858,9617 L 7633,9617 L 7633,8294 L 11051,3291 L 12320,3291 L 12320,8289 L 13298,8289 L 13298,9617 L 12320,9617 L 12320,11202 L 10858,11202 z"
+               id="path46" />
+          </g>
+          <g
+             id="g48" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
