@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Floats and divs</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-family: Arial, Helvetica, sans-serif
+		}
+		.box{
+			background-color: #ccc;
+			border: 1px solid black;
+			padding: 20px;
+			margin-bottom: 15px;
+		}
+		.container{
+			max-width: 900px;
+			margin: auto;
+		}
+		.box p{
+			text-align: justify;
+		}
+		#box2{
+			float: left;
+			width: 65%;
+		}
+		#box3{
+			float: right;
+			width: 32%;
+		}
+		.clr{
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box" id="box1">
+			<h2>Heading</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		<div class="box" id="box2">
+			<h2>Heading</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		<div class="box" id="box3">
+			<h2>Heading</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+		<div class="clr"></div>
+		<div class="box" id="box4">
+			<h2>Heading</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+		</div>
+
+	</div>
+</body>
+</html>

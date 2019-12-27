@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		body{
+			background-color: #0A3D62;
+		}
+		.container{
+			margin: auto;
+			max-width: 500px;
+			height: 740px;
+			background-color: #fff;
+		}
+		header{
+			padding: 10px;
+		}
+		header p,h1{
+			text-align: center;
+		}
+		.container1{
+			margin: auto;
+			max-width: 400px;
+			height: 600px;
+			
+		}
+		input{
+			width: 100%;
+			padding: 8px;
+			border: #ddd 1px solid;
+			border-radius: 5px;
+		}
+		button{
+			width: 100%;
+			padding: 5px;
+			border-radius: 5px;
+			background-color: #26ae60;
+			color: white;
+		}
+		p a{
+			text-decoration: none;
+		}
+		p{
+			text-align: center;
+		}
+		#external{
+			color: #fff
+		}
+		#link{
+			color: #26ae60;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="container1">
+			<header>
+				<h1>Sign Up</h1>
+				<p>It's free and only takes a minute</p>
+			</header>
+			<br><br>
+			<form method="get">
+				First Name<br><br>
+				<input type="text" name="First_Name"><br><br>
+				Last Name<br><br>
+				<input type="text" name="Last_Name"><br><br>
+				Email<br><br>
+				<input type="Email" name="Email"><br><br>
+				Password<br><br>
+				<input type="password" name="password"><br><br>
+				Confirm Password<br><br>
+				<input type="password" name="confirm_pass"><br><br>
+				<button type="submit">Sign Up</button>
+			</form>
+			<p>By clicking the sign up you agree to out <a href="#">Terms and conditions and Privacy Policy<a></p>
+		</div>
+	</div>
+	<p id="external">Already have an Account ? <a href="#" id="link">Login Here</a></p> 
+</body>
+</html>
