@@ -82,6 +82,7 @@ span{
 	margin-right: 200px;
 	margin-bottom: 20px;
 	padding: 10px;
+	opacity: 0.9;
 }
 .boxes2{
 	background-color: #F9DDA4;
@@ -91,6 +92,7 @@ span{
 	margin-bottom: 20px;
 	margin-top: 50px;
 	padding: 10px;	
+	opacity: 0.9;
 }
 .image{
 	background-image: url('./images/person-1.jpg');
