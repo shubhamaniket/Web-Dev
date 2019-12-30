@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Resposive Design</title>
+	<style type="text/css">
+		body{
+			background-color: blue;
+			color: white;
+			padding: 100px;
+			text-align: center;
+		}
+		h1{
+			display: none;
+		}
+		/*Smartphones*/
+		@media(max-width: 500px){
+			body{
+				background-color: red;
+			}
+			#smartphone h1{
+				display: block;
+			}
+		}
+		/*Tablets*/
+		@media(min-width: 501px) and (max-width: 768px){
+			body{
+				background-color: green;
+			}
+			#tablet h1{
+				display: block;
+			}
+		}
+		/*Normal*/
+		@media(min-width: 769px) and (max-width: 1200px){
+			body{
+				background-color: pink;
+			}
+			#normal h1{
+				display: block;
+			}
+		}
+		/*Wide Screen*/
+		@media(min-width: 1201px){
+			body{
+				background-color: black;
+			}
+			#widescreen h1{
+				display: block;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="smartphone"><h1>Smartphone</h1></div>
+	<div id="tablet"><h1>Tablet</h1></div>
+	<div id="normal"><h1>Normal</h1></div>
+	<div id="widescreen"><h1>WideScreen</h1></div>
+</body>
+</html>
