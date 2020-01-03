@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Shadows</title>
+	<style type="text/css">
+		.container{
+			display: flex;
+			justify-content: space-between;
+		}
+		.box{
+			flex: 1;
+			margin: 1rem;
+			padding: 1rem;
+			background-color: #ccc;
+			/*offset-x offset-y blur color*/
+			box-shadow: -10px 10px 20px black;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h1>Heading 1</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+		</div>
+		<div class="box">
+			<h1>Heading 2</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+		</div>
+		<div class="box">
+			<h1>Heading 3</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
+		</div>
+	</div>
+</body>
+</html>
