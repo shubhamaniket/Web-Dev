@@ -1,0 +1,450 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	padding: 25px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #f7f7f7;
+}
+.starter{
+	background-image: linear-gradient(rgba(0,190,0,0.4),rgba(0,199,0,0.4)),url('../img/hero.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	clip-path: polygon(0 0,100% 0,100% 88%,0 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.starterheader{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	font-size: 1.7em;
+	line-height: 1.7;
+	position: absolute;
+	top: 0%;
+	opacity: 0;
+	letter-spacing: 1rem;
+	text-align: center;
+	animation-name: animate1;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+.discoverbutton{
+	display: flex;
+	position: absolute;
+	width: 160px;
+	height: 50px;
+	background-color: #fff;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	border-radius: 100px;
+	color: green;
+	transition-property: all;
+	transition-duration: 0.5s;
+	bottom: 0%;
+	opacity: 0;
+	animation-name: animate2;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+}
+@keyframes animate2{
+	to{
+		bottom: 30%;
+		opacity: 1;
+	}
+}
+.discoverbutton a{
+	text-decoration: none;
+	color: green;
+}
+.discoverbutton:hover{
+	width: 200px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+}
+.menubar{
+	position: absolute;
+	top: 10%;
+	right: 8%;
+	width: 50px;
+	height: 50px;
+	transition-property: all;
+	transition-duration: 2s;
+	background-color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+.menubar:hover{
+	box-shadow: 5px 5px 10px rgba(0,254,50,0.4);
+	height: 55px;
+	width: 55px;
+}
+.menubar a{
+	text-decoration: none;
+	color: #333;
+}
+.menubar a i{
+	display: flex;
+}
+@keyframes animate1{
+	to{
+		top: 30%;
+		opacity: 1;
+	}
+}
+.aboutpage{
+	height: 100vh;
+}
+.header{
+	height: 20%;
+}
+.header  h1{
+	color: #6AB04A;
+	text-align: center;
+	font-size: 35px;
+	letter-spacing: 0.75rem;
+	line-height: 1.75rem;
+	font-weight: bolder;
+	padding-top: 45px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.container{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	padding:2rem;
+}
+.box1{
+	flex:1;
+	margin: 1.5rem;
+	padding-top: 60px;
+	color: grey;
+}
+.box2{
+	flex:1;
+	margin: 1.5rem;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	padding-left: 50px;
+}
+.image1{
+	background-image: url('../img/nat-1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 200px;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	background-color: red;
+}
+.image2{
+	background-image: url('../img/nat-2.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	left: 100px;
+	bottom: 25px;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	background-color: yellow;
+}
+.image3{
+	background-image: url('../img/nat-3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	bottom: 60px;
+	position: relative;
+	width: 250px;
+	height: 200px;
+	background-color: green;
+}
+.learnmore{
+	background-color: #f7f7f7;
+	padding:10px;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	color: green;
+}
+.learnmore:hover{
+	background-color: green;
+	color: #fff;
+}
+.detailspage{
+	height: 120vh;
+	background-image: linear-gradient(rgba(0,200,0,0.4),rgba(0,59,0,0.4)),url('../img/nat-1-large.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container1{
+	min-width: 100%;
+	height: 48%;
+	display: flex;
+}
+.container1 .box3{
+	flex: 1;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	opacity: 0.8;
+	align-items: center;
+	justify-content: center;
+	transition-duration: 0.5s;
+	transition-property: all;
+}
+.container1 .box3:hover{
+	box-shadow: 10px 10px 5px black;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.container1 .box4{
+	flex: 1;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	opacity: 0.8;
+	align-items: center;
+	justify-content: center;
+	transition-duration: 0.5s;
+	transition-property: all;
+}
+.container1 .box4:hover{
+	box-shadow: 10px 10px 5px black;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.container1 .box5{
+	flex:1;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	opacity: 0.8;
+	align-items: center;
+	justify-content: center;
+	transition-duration: 0.5s;
+	transition-property: all;
+}
+.container1 .box5:hover{
+	box-shadow: 10px 10px 5px black;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.container1 .box6{
+	flex:1;
+	margin: 25px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	opacity: 0.8;
+	align-items: center;
+	justify-content: center;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+.container1 .box6:hover{
+	box-shadow: 10px 10px 5px black;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.container1 i{
+	color: green;
+	margin-top: 20px;
+}
+.container1 p{
+	padding: 15px;
+}
+.container1 .box3 .insidediv1{
+	flex:1;
+}
+.container1 .box3 .insidediv2{
+	flex:1;
+	text-align: center;
+}
+.container1 .box4 .insidediv3{
+	flex:1;
+}
+.container1 .box4 .insidediv4{
+	flex:1;
+	text-align: center;
+}
+.container1 .box5 .insidediv5{
+	flex:1;
+}
+.container1 .box5 .insidediv6{
+	flex:1;
+	text-align: center;
+}
+.container1 .box6 .insidediv7{
+	flex:1;
+}
+.container1 .box6 .insidediv8{
+	flex:1;
+	text-align: center;
+}
+.cards{
+	height: 110vh;
+}
+.cardheader{
+	text-align: center;
+	padding-top: 40px;
+	height: 15%;
+}
+.cardheader h1{
+	color: #6AB04A;
+	font-size: 35px;
+	letter-spacing: 0.75rem;
+	line-height: 1.75rem;
+	font-weight: bolder;
+}
+.cardcontainer{
+	height: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.carddiv{
+	height: 90%;
+	min-width: 100%;
+	display: flex;
+}
+.card1{
+	flex:1;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 3px 3px 15px grey;
+}
+.card2{
+	flex:1;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 3px 3px 15px grey;
+}
+.card3{
+	flex:1;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 3px 3px 15px grey;
+}
+.card1one{
+	flex: 1.55;
+	background-image: url('../img/nat-5.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.innerheader{
+	position: absolute;
+	bottom: 7px;
+	right: 5px;
+	color: #fff;
+	opacity: 0.8;
+}
+.card1two{
+	flex:1.5;
+	padding: 40px;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+ul li{
+	padding: 10px;
+}
+.features{
+	height: 100%;
+	min-width: 100%;
+}
+#first{
+	border: 1px solid transparent;
+	text-align: center;
+	padding: 10px;
+	background-color: orange;
+	margin-bottom: 2px;
+}
+#second{
+	border: 1px solid transparent;
+	text-align: center;
+	padding: 10px;
+	background-color: orange;
+}
+.card2one{
+	flex:1.55;
+	background-image: url('../img/nat-6.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.card2two{
+	flex:1.5;
+	padding: 40px;
+}
+.card3one{
+	flex: 1.55;
+	background-image: url('../img/nat-7.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.card3two{
+	flex: 1.5;
+	padding: 40px;
+}
+.booktours{
+	text-align: center;
+	margin:auto;
+	margin-top: 28px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.booktours{
+	width: 160px;
+	height: 35px;
+	background-color: #00ffcc;
+	border-radius: 100px;
+	transition-property: all;
+	transition-duration: 0.5s;
+}
+.booktours:hover{
+	box-shadow: 2px 2px 5px #333;
+}
+.booktours a{
+	text-decoration: none;
+	color: black;
+}
+.reviews{
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,500,0.4),rgba(0,0,500,0.4)),url('../img/nat-2-large.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
